@@ -1,3 +1,3 @@
-FROM quay.io/kmayerb/aws-batch-conda-py3:0.0.1
+FROM continuumio/anaconda3:2019.10
 
 RUN apt-get install -y nano
